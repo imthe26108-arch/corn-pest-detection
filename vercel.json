@@ -1,12 +1,6 @@
-{
+﻿{
   "framework": "nextjs",
   "buildCommand": "pnpm build",
   "devCommand": "pnpm dev",
-  "installCommand": "pnpm install",
-  "regions": ["hnd1"],
-  "functions": {
-    "src/app/api/**/*.ts": {
-      "runtime": "edge"
-    }
-  }
+  "installCommand": "pnpm install"
 }
